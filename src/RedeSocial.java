@@ -19,7 +19,7 @@ public class RedeSocial {
             System.out.print("Escolha uma opção: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -56,7 +56,7 @@ public class RedeSocial {
 
         System.out.print("Insira a idade do Usuário: ");
         int idadeUser = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
 
         User usuario = new User(nomeUser, idadeUser);
         users.add(usuario);
@@ -71,7 +71,7 @@ public class RedeSocial {
 
         System.out.print("ID do usuário que está postando a mensagem: ");
         int userId = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
 
         User user = findUserById(userId);
         if (user == null) {
@@ -91,7 +91,7 @@ public class RedeSocial {
 
         System.out.print("ID da mensagem para reagir: ");
         int messageId = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
 
         Messages message = findMessageById(messageId);
         if (message == null) {
@@ -122,7 +122,7 @@ public class RedeSocial {
     void showUserMessages() {
         System.out.print("Digite o ID do usuário: ");
         int userId = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
 
         User user = findUserById(userId);
         if (user == null) {

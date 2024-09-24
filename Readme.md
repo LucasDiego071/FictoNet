@@ -44,7 +44,7 @@ Este projeto foi desenvolvido para explorar conceitos fundamentais da linguagem 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/FictoNet.git
+   git clone https://github.com/LucasDiego071/FictoNet.git
    ```
 
 2. Abra o projeto em sua IDE preferida
